@@ -1,0 +1,19 @@
+1. Algorithm 
+
+Algorithm practice class assistant for 3 years(2017-2019) through the 'Codeforces' and 'SW expert'
+
+
+2. Security
+
+Windows Kernel Programming in Win 7
+	As the governmental project
+
+Hash Function
+	Key element in the Bloom filter
+		
+
+3. Programming language
+	C(GCC/VS)
+
+
+/**********************************************************************/

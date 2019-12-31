@@ -1,0 +1,5 @@
+Thesis for Degree of Master: Modifications using Circular Shift for a Better Bloom Filter(eng)
+
+Keyword: Bloom filter, Hash function, Circular shift
+
+/**********************************************************************/
