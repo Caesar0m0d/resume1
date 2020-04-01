@@ -14,6 +14,7 @@
 #include<unistd.h>
 #include<sys/stat.h>
 #include<fcntl.h>
+#include<pthread.h>
 
 
 #define indexxx	 	"./index.txt"
@@ -70,14 +71,18 @@ int main() {
 		for(i=1;i<end;i++){
 			
 			printf("/");
-			for(j=0;j<namesize;j++)printf("*");
+			for(j=0;j<namesize;j++)
+				printf("*");
 			printf("/\n\n\n");
 			printf("\t\t%s\n\n\n",bfs_arr[i]->name);
 			printf("/");
-			for(j=0;j<namesize;j++)printf("*");
+
+			for(j=0;j<namesize;j++)
+				printf("*");
 			printf("/\n\n\n");
 			int fd;
-			if((fd = open(bfs_arr[i]->resume_text,O_RDONLY)) == -1)perror("No Open File");
+			if((fd = open(bfs_arr[i]->resume_text,O_RDONLY)) == -1)
+				perror("No Open File");
 			read(fd,buf_0,textlength);
 			
 			printf("%s\n",buf_0);

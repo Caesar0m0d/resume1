@@ -13,7 +13,7 @@ Hash Function
 		
 
 3. Programming language
-	C(GCC/VS)
+	C(GCC/VS),c++
 
 
 /**********************************************************************/
